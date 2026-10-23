@@ -1,0 +1,49 @@
+.logo{
+    width: 110px;
+    height: 50px;
+}
+body{
+background: linear-gradient(135deg, #4b91c0 0% , #3d3792 100% );
+    color: #ffffff;
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+}
+.brawlers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.brawler-card {
+    background-color: #101865;
+    border: 3px solid #4c3aed;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+
+.brawler-card:hover {
+    transform: translateY(-10px);
+    border-color: #facc15;
+}
+
+.brawler-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+header {
+    background-color: #87cdfc;
+}
+p{
+    font-family: Comic Sans MS ;
+}
+a{
+    color: white;
+}

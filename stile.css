@@ -1,0 +1,90 @@
+.cool{
+    width: 320px;
+    border: 2px solid black;
+}
+body{
+background: linear-gradient(135deg, #4b91c0 0% , #3d3792 100% );
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+}
+h1, p{
+    color: white;
+}
+.logo{
+    width: 110px;
+    height: 50px;
+}
+h1, h2{
+    text-align: center;;
+}
+.brawl-btn {
+    display: inline-block;
+    background: linear-gradient(to bottom, #fde047, #d39e2c);
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 50px; 
+    border: 3px solid #fff;
+    box-shadow: 0 4px 0 #854d0e;
+    transition: all 0.1s ease;
+}
+
+.brawl-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 #854d0e; 
+}
+header {
+    background-color: #87cdfc;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+}
+        .house{
+            position: relative;
+            height: 300px;
+        }
+        .roof{
+            position: absolute;
+            border-left: 120px solid transparent; 
+            border-right: 120px solid transparent; 
+            border-bottom: 100px solid #cc3333;
+        }
+        .wall{
+            background-color: #ffcc66;
+            border: 2px solid #aa8800;
+            position: absolute;
+            top: 100px;
+            height: 200px;
+            width: 240px;
+        }
+        .door{
+            background-color: #996633;
+            border: 2px solid #664422;
+            position: absolute; 
+            bottom: 0;
+            left: 150px;
+            width: 60px;
+            height: 100px;
+        }
+        .window{
+            background-color: #66ccff;
+            border: 2px solid #3399ff;
+            position: absolute;
+            top: 150px; 
+            left: 50px;
+            width: 60px;
+            height: 60px;
+        }
+        .cool:hover {
+    transform: translateY(-10px);
+    border-color: #facc15;
+}
+a{
+    color: white;
+    width: auto;
+}
